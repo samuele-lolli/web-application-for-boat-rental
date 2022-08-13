@@ -1,0 +1,27 @@
+footer {
+    width: 100%;
+    position: relative;
+    background-color: #45a5c1c7 !important;
+    border-radius: 40px;
+    box-shadow: 0 -5px 40px rgb(150, 172, 177);
+    min-height: 48px;
+}
+
+@media only screen and (max-width: 610px){
+    #footer{
+        width: 100vw;
+    }
+}
+
+#tornaSu{
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    height: 37px;
+}
+
+@media only screen and (max-width: 610px){
+    #tornaSu {
+        display: none
+    }
+}

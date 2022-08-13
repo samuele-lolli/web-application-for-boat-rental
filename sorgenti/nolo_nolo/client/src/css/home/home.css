@@ -1,0 +1,118 @@
+root, body, html {
+    font-family: Arial, sans-serif !important;
+}
+#layout {
+    padding-right: 0;
+    padding-left: 0;
+    display: grid;
+    background-image: var(--foto);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#navbar{
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1000px){
+    #navbar{
+        padding: 0;
+    }
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 1000px){
+    #chisiamo{
+        display: none;
+    }
+    #dovesiamo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 321px){
+    #darkmode{
+        display: none;
+    }
+}
+
+nav {
+    background-color: #45a5c1c7 !important;
+}
+
+#titolo {
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 52pt;
+    height: 75px;
+    color: white !important;
+}
+
+#sottotitolo {
+    text-align: center;
+    font-size: 17pt;
+    color: white !important;
+    margin-top: -7vh;
+}
+
+@media only screen and (max-width: 1025px){
+    #titolo{
+        font-size: 47pt;
+        margin-top: 8vh;
+    }
+    #sottotitolo {
+        font-size: 24pt;
+        margin-top: -4vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 426px){
+    #titolo{
+        font-size: 42pt;
+        margin-top: 10vh;
+    }
+    #sottotitolo {
+        font-size: 14pt;
+        margin-top: -7vh;
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 290px){
+    #titolo{
+        font-size: 32pt;
+        margin-top: 10vh;
+        margin-right: 2vw;
+    }
+    #sottotitolo{
+        margin-right: 5vw;
+        margin-top: -5vh;
+    }
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    background-color: #45a5c1c7 !important;
+    border-radius: 40px;
+    box-shadow: 0 -5px 40px rgb(150, 172, 177);
+    padding: 2px;
+}
+
+@media only screen and (max-width: 321px){
+    #footerHome{
+        width: 100vw;
+        padding:0;
+    }
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    color: white !important;
+}

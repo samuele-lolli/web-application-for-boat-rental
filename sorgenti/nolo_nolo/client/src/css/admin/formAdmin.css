@@ -1,0 +1,55 @@
+#titoloInserimento{
+    color: black !important;
+}
+
+#buttonOpera{
+    width:100% !important;
+    background-color: #3f51b5 !important;
+    margin-top: 3vh;
+}
+
+.inputForm{
+    margin-top: 4vh !important;
+}
+
+.inputLabel{
+    margin-top: 2vh !important;
+}
+
+.select{
+    margin-top: 1vh !important;
+}
+
+.checkcheck{
+    background-color: lightgrey !important;
+    display: inline-block;
+}
+
+.labelCheck{
+    display: inline-block !important;
+}
+
+.checkcheck{
+    background-color: #3f51b5 !important;
+    display: inline-block !important;
+    float: right;
+    padding: 0 !important;
+}
+
+#bottoneDelete{
+    margin-top: 4vh;
+    background-color: #3f51b5;
+}
+
+#bottoneDelete:hover{
+    background-color: #7286ec;
+}
+
+#buttonOpera1{
+    margin-top: 4vh;
+    background-color: #3f51b5;
+}
+
+#buttonOpera1:hover{
+    background-color: #7286ec;
+}

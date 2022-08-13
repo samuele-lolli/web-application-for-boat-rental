@@ -1,0 +1,13 @@
+.list-text span{
+    color: grey !important;
+}
+
+.list-item{
+    margin-top: 2vh !important;
+}
+
+.list-text{
+    text-decoration: none !important;
+    color: grey !important;
+    font-size: 15px;
+}

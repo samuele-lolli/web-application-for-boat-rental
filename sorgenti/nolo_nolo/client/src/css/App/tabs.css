@@ -1,0 +1,85 @@
+.backtabss{
+    background-color: var(--tabs) !important;
+}
+.tabss {
+    background-color: var(--tabs);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabb{
+    width: 25%;
+}
+
+
+@media only screen and (max-width: 1500px) {
+    .tabb{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .tabb{
+        width: 25%;
+    }
+}
+
+
+@media only screen and (max-width: 1025px) {
+    .tabb{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .tabb{
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .tabb{
+        width: 25%;
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .tabb{
+        left: -3vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .tabb{
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .tabb{
+        left: 0;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .tabb{
+        left: 1vw;
+        width: 23%;
+    }
+}
+@media only screen and (max-width: 361px) {
+    .tabb{
+        left: -2vw;
+    }
+}
+@media only screen and (max-width: 326px) {
+    .tabb{
+        width: 45%;
+    }
+    .tabss{
+        width: 70%;
+        margin-left: 4vw;
+
+    }
+}

@@ -1,0 +1,33 @@
+@media all and (max-width: 560px){
+    .calendario{
+        width: 10%;
+    }
+}
+
+@media all and (max-width: 427px){
+    .calendario{
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 385px){
+    .calendario{
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 325px){
+    .calendario{
+        width: 85%;
+    }
+}
+
+@media all and (max-width: 282px){
+    .calendario{
+        width: 94%;
+    }
+}
+
+.calendario{
+    z-index: 2000;
+}

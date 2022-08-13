@@ -1,0 +1,45 @@
+#jumbo1 {
+    height: 84%;
+    margin: 5vh 7vh;
+    border-radius: 20px;
+    border: solid #2f98d5 !important;
+    background-color: var(--jumboColor);
+    color: var(--bb);
+}
+
+#jumbo2 {
+    height: 84%;
+    margin: 5vh 7vh 7vh 7vh;
+    border-radius: 20px;
+    border: solid #2f98d5 !important;
+    background-color: var(--jumboColor);
+    color: var(--bb);
+}
+
+@media all and (max-width: 426px){
+    #jumbo2,#jumbo1{
+        margin-bottom: 14vh;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+}
+
+@media all and (max-width: 304px){
+    #jumbo2,#jumbo1{
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+h1.titoloCard {
+    font-size: 27pt;
+}
+
+p.lead, ul.lead {
+    font-size: 12pt;
+    text-align: left;
+}
+
+#titoloJumbo{
+    color:var(--bb) !important;
+}

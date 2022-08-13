@@ -1,0 +1,111 @@
+.modal-body{
+    padding: 0 !important;
+}
+
+.modal-header{
+    padding-left: 0 !important;
+}
+
+/* Modale login */
+#sfondoLogin {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../../images/modaleLogin.jpg");
+}
+#bottoneLogin{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #45a5c1c7;
+    border-color: #45a5c1c7;
+}
+
+#testoLogin{
+    height:100%;
+}
+
+/* Modale registrazione */
+#sfondoRegistrazione {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../../images/modaleLogin.jpg");
+}
+
+@media only screen and (max-width: 992px){
+    .testoModaleReg{
+        margin-top: 8vh
+    }
+}
+
+#bottoneRegistrazione{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #45a5c1c7;
+    border-color: #45a5c1c7;
+}
+
+#testoRegistrazione{
+    height:100%;
+}
+
+#condizioni{
+    color: #5ec1de
+}
+
+/* MARCO MODALE BARCHE */
+#fotoBarca {
+    max-width:100%;
+    max-height:100%;
+}
+
+.descrizione{
+    color: grey;
+}
+
+#sfondoBoat {
+    background-size: cover;
+    background-position: center center;
+    background-image: url("../../images/h2o.jpg");
+}
+.menu-itemBarca {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.5rem;
+    width: 70%;
+    cursor: pointer;
+}
+.menu-itemBarca .icon-button {
+    margin-right: 0.5rem;
+}
+
+.menu-itemBarca .icon-button:hover {
+    filter: none;
+}
+
+.menu-itemBarca:hover {
+    background-color: #00FFFF !important;
+    color: white;
+}
+
+#barcabottoneScritta{
+    color: black !important;
+    height: 15px;
+}
+
+.my-modal{
+    z-index:1090;
+}
+
+#restituz{
+    color: black !important;
+}
+
+.modal-backdrop {
+    background-color: black !important;
+}

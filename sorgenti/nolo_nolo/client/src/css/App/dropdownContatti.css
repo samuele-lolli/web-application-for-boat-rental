@@ -1,0 +1,39 @@
+#droppContatti{
+    position: absolute;
+    z-index: 1000;
+    top: 59px;
+    margin-left: 25%;
+    width: 300px;
+    transform: translateX(-45%);
+    background-color: rgba(69, 165, 193, 0.93) !important;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    transition: height var(--speed) ease;
+    color: white;
+    overflow-y: hidden;
+    scrollbar-width: none;  /*per risolvere il problema altezza profilo su firefox*/
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    #droppContatti{
+        margin-left: unset;
+        right: 190px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 481px) {
+    #droppContatti{
+        margin-left: unset;
+        right: -40px;
+    }
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    #droppContatti{
+        margin-left: unset;
+        right: -130px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #droppContatti {
+        top: 64px;
+    }
+}

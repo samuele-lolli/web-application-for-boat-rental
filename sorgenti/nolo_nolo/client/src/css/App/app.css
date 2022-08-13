@@ -1,0 +1,389 @@
+#body{
+    background-image: var(--foto);
+    padding-right: 0;
+    padding-left: 0;
+    display: grid;
+    overflow: hidden;
+}
+/*https://images.unsplash.com/photo-1550757750-4ce187a65014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80
+https://images.unsplash.com/photo-1621961894273-4bd0b8583ba8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80
+*/
+.benvenuto{
+    font-size: 52pt;
+    text-align: left;
+}
+
+#cartenoleggio{
+    height: 450px;
+    background-color: #9ddeef;
+    margin: auto;
+    width: 18rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid #77d7e8 3px !important;
+}
+
+img .imageCard{
+    border-radius: 5px;
+}
+
+.accordionCard{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    background-color: var(--tabs);
+}
+.accordionLink{
+    color: white !important;
+    font-size: 18px;
+}
+#titoloP{
+    font-weight: bold;
+}
+.btn-link.collapsed{
+    text-decoration: none;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+    background-color: rgba(69, 165, 193, 0.09) !important;
+}
+
+#testoNoleggio{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 17pt;
+    font-weight: bold;
+    color: white !important;
+}
+#testoNoleggio1{
+    text-align: center;
+    font-size: 17pt;
+    font-weight: bold;
+    color: var(--bb);
+}
+@media all and (max-width: 801px){
+    #testoNoleggio{
+        margin-top: 13vh;
+        margin-right: 1vh;
+        margin-left:1vh;
+    }
+}
+
+@media all and (max-width: 650px){
+    #testoNoleggio{
+        margin-top:18vh;
+        margin-right: 1vw;
+        margin-left:1vh;
+    }
+}
+
+@media all and (max-width: 601px){
+    #testoNoleggio{
+        margin-top:7vh;
+        margin-right: 9vw;
+        margin-left:1vh;
+    }
+}
+
+@media all and (max-width: 550px){
+    #testoNoleggio{
+        margin-top: 11vh;
+        margin-right: 1vw;
+        margin-left: 1vh;
+    }
+}
+
+@media all and (max-width: 386px){
+    #testoNoleggio{
+        margin-top: 11vh;
+        margin-right: 5vw;
+        margin-left: 1vw;
+    }
+}
+
+@media all and (max-width: 365px){
+    #testoNoleggio{
+        margin-top:11vh;
+        margin-right: 11vw;
+        margin-left:1vw;
+    }
+}
+
+@media all and (max-width: 325px){
+    #testoNoleggio{
+        margin-top:13vh;
+        margin-right: 30vw;
+        margin-left:1vw;
+    }
+}
+
+@media all and (max-width: 290px){
+    #testoNoleggio{
+        margin-top:13vh;
+        margin-right: 47vw;
+        margin-left:1vw;
+    }
+}
+
+#testoCarosello{
+    text-align: center;
+    background-color: #aae1f5;
+    font-size: 15pt;
+    border-radius: 10px;
+}
+
+.restituisci{
+    background-color: #7B68EE;
+    border: solid #a194ef 2px !important;
+    border-radius: 10px !important;
+    color: white;
+    font-size: 17px;
+    height: 22px;
+    float: right;
+}
+.restituisci:hover{
+    background-color: #a194ef !important;
+}
+
+.restituisci span{
+    position: relative;
+    top: -9px;
+}
+
+.canc{
+    background-color: #7B68EE;
+    border: solid #a194ef 2px !important;
+    border-radius: 10px !important;
+    color: white;
+    font-size: 17px;
+    height: 22px;
+    float: right;
+}
+.canc:hover{
+    background-color: #a194ef !important;
+}
+.canc span{
+    position: relative;
+    top: -9px;
+}
+.dateAccordion{
+    margin-left: 1vw;
+}
+
+.dateAccordion2{
+    margin-left: 1vw;
+}
+
+@media all and (max-width: 801px){
+    .dateAccordion{
+        margin-left: 2vw;
+    }
+    .dateAccordion2{
+        margin-left: 3vw;
+    }
+}
+
+@media all and (max-width: 601px){
+    .accordionCard{
+        margin-right: 9vw;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+    }
+    #testoNoleggio1{
+        margin-right: 8vw;
+    }
+    .dateAccordion{
+        margin-left: 3vw;
+    }
+    .dateAccordion2{
+        margin-left: 4vw;
+    }
+}
+
+@media all and (max-width: 550px){
+    .accordionCard{
+        margin-right: 2vw;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+    }
+    #testoNoleggio1{
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 485px){
+    #testoNoleggio1{
+        margin-right: 1vw;
+    }
+}
+
+@media all and (max-width: 386px){
+    .accordionCard{
+        margin-right: 5.5vw;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+        width: 32%;
+        top: 5px
+    }
+    .restituisci{
+        position: relative;
+        left: 20px;
+        top: 10px;
+    }
+    .dateAccordion{
+        margin-left: -3.5vw;
+    }
+    .dateAccordion2{
+        margin-left: 1vw;
+    }
+    #testoNoleggio1{
+        margin-right: 3vw;
+    }
+    .menu-itemP {
+        margin-left: -6.5vw;
+    }
+}
+@media all and (max-width: 376px){
+    .accordionCard{
+        margin-right: 7vw;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+    }
+}
+
+@media all and (max-width: 365px){
+    .accordionCard{
+        margin-right: 12vw;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+        width: 30%;
+        top: 0;
+        font-size: 16px;
+    }
+    .restituisci{
+        position: relative;
+        left: 20px;
+    }
+    .dateAccordion{
+        margin-left: -3.5vw;
+    }
+    .dateAccordion2{
+        margin-left: 1vw;
+    }
+    #testoNoleggio1{
+        margin-right: 9vw;
+    }
+    .menu-itemP {
+        margin-left: -7.5vw;
+    }
+}
+
+@media all and (max-width: 325px){
+    .accordionCard{
+        margin-right: 30vw;
+    }
+    .restituisci{
+        position: relative;
+        left: 20px;
+        width: 37%;
+        font-size: 11px;
+    }
+    .restituisci span{
+        position: relative;
+        top: -5px;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+        width: 30%;
+        top: 3px;
+        font-size: 11px;
+    }
+    .canc span{
+        position: relative;
+        top: -5px;
+    }
+    .dateAccordion{
+        margin-left: -2vw;
+
+    }
+    .dateAccordion2{
+        margin-left: 0.5vw;
+    }
+    #testoNoleggio1{
+        margin-right: 25vw;
+    }
+    .menu-itemP {
+        margin-left: -5vw;
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width: 281px){
+    .accordionCard{
+        margin-right: 48vw;
+    }
+    .canc{
+        position: relative;
+        left: 20px;
+    }
+    #testoNoleggio1{
+        margin-right: 45vw;
+    }
+    .dateAccordion{
+        margin-left: 4vw;
+    }
+}
+
+#cancella{
+    margin-left: 2vw;
+    font-size:20px;
+}
+.canc1{
+    background-color: #7B68EE;
+    border: solid #a194ef 2px !important;
+    border-radius: 10px !important;
+    color: white;
+    font-size: 18px;
+    height: 30px;
+}
+.canc1:hover{
+    background-color: #a194ef !important;
+}
+.canc1 span{
+    position: relative;
+    top: -5px;
+}
+.canc2{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+#info{
+    line-height: 60%;
+    font-size: 14px;
+}
+/*/prenotazioni///////////////////////////////////*/
+.menu-itemP {
+    color: white !important;
+    height: 50px;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.6rem;
+    cursor: default;
+}
+.menu-itemP:hover {
+    background-color: #00FFFF !important;
+    color: white;
+}

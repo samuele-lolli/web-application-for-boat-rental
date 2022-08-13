@@ -1,0 +1,30 @@
+.carousel {
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+
+@media only screen and (max-width: 500px){
+    .carousel{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 290px){
+    .carousel{
+        margin-left: -6vw !important;
+    }
+}
+
+.carousel .carousel-item {
+    max-height: 80vh !important;
+}
+
+p.titolo {
+    font-size: 5vw;
+    font-family: 'Lora', serif;
+}
+
+p.sottotitolo {
+    font-size: 2vw;
+}

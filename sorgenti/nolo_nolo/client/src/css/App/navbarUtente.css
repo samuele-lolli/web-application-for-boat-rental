@@ -1,0 +1,151 @@
+.theme-dark {
+    --bg: rgba(0, 0, 0, 0.85) !important;
+    --bb: white;
+    --ba: rgba(0, 0, 0, 0.85) !important;
+    --navlinkk: black !important;
+    --jumboColor: #063d50 !important;
+    --tabs: #525252 !important;
+    --foto: url("https://www.fundermax.at/fileadmin/redakteure/_processed_/2/b/csm_0080_A4_1e2d60716c.jpg");
+}
+.theme-light {
+    --bg: rgba(69, 165, 193, 0.09) !important;
+    --bb: rgba(0, 0, 0, 0.85) !important;
+    --ba: white !important;
+    --navlinkk: #7B68EE !important;
+    --jumboColor: #cfe6f1 !important;
+    --tabs: #45a5c1 !important;
+    --foto: url("https://images.unsplash.com/photo-1550757750-4ce187a65014?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80");
+}
+
+
+:root {
+    --bg-accent: #484a4d;
+    --text-color: white;
+    --border-radius: 8px;
+    --speed: 500ms;
+}
+
+a {
+    color: var(--text-color);
+}
+span{
+    color: var(--text-color);
+}
+#a{
+    color: var(--text-color);
+}
+
+/* Top Navigation Bar */
+
+/* <nav> */
+.navbar {
+    padding: 0.5rem 1rem;
+    background-color: #45a5c1c7 !important;
+    border-radius: 40px;
+    box-shadow: 0 10px 40px rgb(150, 172, 177);
+}
+
+/* <ul> */
+.navbar-nav {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* <li> */
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon Button */
+.icon-buttonContatti{
+    margin: 4px;
+    height: 20px;
+    cursor: pointer;
+}
+.icon-buttonContatti:hover{
+    color: var(--navlinkk);
+}
+/* Dropdown Menu */
+.react-toast-notifications__container {
+    z-index: 1100 !important;
+}
+.carrello{
+    overflow: hidden !important;
+}
+.menu {
+    width: 100%;
+}
+.icon-right {
+    margin-left: auto;
+}
+
+/* CSSTransition classes  */
+/* primario  */
+.menu-primary-enter {
+    position: absolute;
+    transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+.menu-primary-exit {
+    position: absolute;
+}
+.menu-primary-exit-active {
+    transform: translateX(-110%);
+    transition: all var(--speed) ease;
+}
+/* secondario  */
+.menu-secondary-enter {
+    transform: translateX(110%);
+}
+.menu-secondary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+.menu-secondary-exit {
+    position: absolute;
+}
+.menu-secondary-exit-active {
+    transform: translateX(110%);
+    transition: all var(--speed) ease;
+}
+/* terziario */
+.menu-tertiary-enter {
+    transform: translateX(330%);
+}
+.menu-tertiary-enter-active {
+    transform: translateX(0%);
+    transition: all var(--speed) ease;
+}
+.menu-tertiary-exit {
+
+}
+.menu-tertiary-exit-active {
+    transform: translateX(330%);
+    transition: all var(--speed) ease;
+}
+
+/* altro  */
+
+@media only screen and (max-width: 991px) {
+    #emaill{
+        display: none;
+    }
+}
+
+#titolo1{
+    color: white;
+}
+#titolo1:hover{
+    color:  var(--navlinkk);
+}
+#dataN{
+    color: #c3c3d2;
+    font-size: 70%;
+}

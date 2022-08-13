@@ -1,0 +1,113 @@
+/*menu-item////////////////////////////////////////////////*/
+.menu-item {
+    color: white !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.menu-item .icon-button {
+    margin-right: 0.5rem;
+}
+.menu-item .icon-button:hover {
+    filter: none;
+}
+.menu-item:hover {
+    background-color: #00FFFF !important;
+    color: white;
+}
+
+/*icon-button///////////////////////////////////////////////////////*/
+.icon-button {
+    background-color: #7B68EE !important;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: filter 300ms;
+    cursor: pointer;
+}
+.icon-button:hover {
+    filter: brightness(1.2);
+}
+.icon-button svg {
+    fill: var(--text-color);
+    width: 20px;
+    height: 20px;
+}
+
+/*menu-itemProfilo/////////////////////////////////////////*/
+.menu-itemProfilo {
+    height: 50px;
+    display: unset;
+    position: relative;
+    left:63px;
+    align-items: center;
+    border-radius: var(--border-radius);
+    transition: background var(--speed);
+    padding: 0.6rem;
+    cursor: pointer;
+}
+.menu-itemProfilo:hover {
+    background-color: #00FFFF !important;
+    color: white;
+}
+.menu-itemProfilo .icon-button {
+    margin-right: 0.5rem;
+}
+.menu-itemProfilo .icon-button:hover {
+    filter: none;
+}
+
+/*#dropp///////////////////////////////////////////////////*/
+#dropp{
+    position: absolute;
+    top: 59px;
+    right: -130px;
+    width: 300px;
+    transform: translateX(-45%);
+    background-color: rgba(69, 165, 193, 0.93) !important;
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    max-height: 500px;
+    overflow-y: scroll;
+    scrollbar-width: none;  /*per risolvere il problema altezza profilo su firefox*/
+    overflow-x: hidden;
+    transition: height var(--speed) ease;
+    color: white;
+}
+
+#dropp::-webkit-scrollbar {
+    display: none;
+}
+@media only screen and (max-width: 991px) {
+    #dropp {
+        top: 64px;
+    }
+}
+@media only screen and (max-height: 500px){
+    #dropp{
+        max-height: 410px;
+    }
+}
+
+/*profilo///////////////////////////////////////////////////////////*/
+#bottoneOldPass{
+    width: 5px;
+    background-color:  #7B68EE;
+    color: white;
+}
+
+#barcheDropdown{
+    height:30px;
+    width:40px;
+}
+/*stats////////////////////////////////////////////////////////////////*/
+#statisticheTitolo{
+    color: white !important;
+}
