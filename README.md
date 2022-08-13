@@ -1,9 +1,13 @@
 
 # WEB APPLICATION FOR BOAT RENTAL
 
+![ciaociao](screenApp1.png)
+
 ## A short description
 
 This web application allows users to rent sailboats, motorboats, accessories and much more in the various italian ports. The user will be able to manage reservations and manage the returns of vehicles / accessories.  In addition, there is a back office part for the various companies that offer rental services along the coasts of the italian peninsula. In this section, it will be possible to add new accessories or vehicles available for rental, modify or manage the reservations of all users and make sure that the returns have been made on time and correctly. Otherwise, there are fines that can always be paid on the platform.
+
+<img src="screenApp4.png" alt="drawing" width="300" height="600"/>
 
 ## Get Started
 
