@@ -1,9 +1,5 @@
 NoloBoats, sito di noleggio barche.
 
-Gruppo:
-Marco Dal Pian 0000892947 marco.dalpian@studio.unibo.it
-Samuele Lolli 0000890835 samuele.lolli@studio.unibo.it
-
 AVVERTENZE
 - React gira sulla porta 3000, assicurarsi che non sia occupata.
 - Express gira sulla porta 3001, assicurarsi che non sia occupata.
